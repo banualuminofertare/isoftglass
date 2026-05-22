@@ -1,0 +1,15 @@
+project_id = "pebktfjtlcumciqvlesg"
+
+[functions]
+  [functions.auth-email-hook]
+    verify_jwt = false
+  [functions.notify-new-subscriber]
+    verify_jwt = false
+  [functions.seed-materials]
+    verify_jwt = false
+  [functions.parse-catalog-pdf]
+    verify_jwt = false
+  [functions.parse-user-catalog-pdf]
+    verify_jwt = false
+  [functions.translate-announcement]
+    verify_jwt = false

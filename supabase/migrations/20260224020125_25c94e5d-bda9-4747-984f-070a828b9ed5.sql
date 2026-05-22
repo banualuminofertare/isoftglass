@@ -1,0 +1,1 @@
+ALTER TABLE crm_leads ADD COLUMN actual_revenue numeric DEFAULT 0;

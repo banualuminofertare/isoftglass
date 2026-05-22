@@ -1,0 +1,1 @@
+ALTER TABLE public.user_quote_settings ADD COLUMN IF NOT EXISTS preferred_currency TEXT NOT NULL DEFAULT 'RON';

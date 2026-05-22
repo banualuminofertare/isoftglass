@@ -1,0 +1,1 @@
+ALTER TABLE public.production_stages ADD COLUMN operator_name text;

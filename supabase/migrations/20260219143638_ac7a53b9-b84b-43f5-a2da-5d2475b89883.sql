@@ -1,0 +1,1 @@
+ALTER TABLE public.materials ADD COLUMN processing_price numeric DEFAULT 0;

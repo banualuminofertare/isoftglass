@@ -1,0 +1,1 @@
+ALTER TABLE public.pricing_config ADD COLUMN glass_deduction numeric NOT NULL DEFAULT 0;

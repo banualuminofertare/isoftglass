@@ -1,0 +1,1 @@
+ALTER TABLE public.pricing_config DROP CONSTRAINT IF EXISTS pricing_config_category_code_key;

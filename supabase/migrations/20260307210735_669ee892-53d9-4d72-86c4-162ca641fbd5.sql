@@ -1,0 +1,2 @@
+ALTER TABLE company_settings ALTER COLUMN tva_percent SET DEFAULT 21;
+ALTER TABLE quotes ALTER COLUMN tva_percent SET DEFAULT 21;

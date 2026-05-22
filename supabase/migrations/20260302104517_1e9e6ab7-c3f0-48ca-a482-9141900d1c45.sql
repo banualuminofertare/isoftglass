@@ -1,0 +1,1 @@
+ALTER TABLE public.crm_leads ADD COLUMN demo_started_at timestamptz DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE public.company_settings ADD COLUMN tva_percent numeric NOT NULL DEFAULT 19;

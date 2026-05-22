@@ -1,0 +1,1 @@
+ALTER TABLE public.company_settings ADD COLUMN euro_rate numeric NOT NULL DEFAULT 4.97;

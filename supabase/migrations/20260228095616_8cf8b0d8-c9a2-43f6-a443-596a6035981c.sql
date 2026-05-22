@@ -1,0 +1,1 @@
+ALTER TABLE public.accessory_kits ADD COLUMN image_url text DEFAULT NULL;

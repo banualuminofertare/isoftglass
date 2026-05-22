@@ -1,0 +1,1 @@
+ALTER TABLE public.pricing_config ADD COLUMN IF NOT EXISTS glass_deductions jsonb NOT NULL DEFAULT '{}'::jsonb;

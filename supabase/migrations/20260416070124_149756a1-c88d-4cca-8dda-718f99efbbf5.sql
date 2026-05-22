@@ -1,0 +1,1 @@
+ALTER TABLE public.companies ADD COLUMN hide_global_pricing boolean NOT NULL DEFAULT false;

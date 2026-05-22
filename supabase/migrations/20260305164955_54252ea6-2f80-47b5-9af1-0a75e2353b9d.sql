@@ -1,0 +1,1 @@
+ALTER TABLE public.profiles ADD COLUMN has_team_access boolean NOT NULL DEFAULT false;

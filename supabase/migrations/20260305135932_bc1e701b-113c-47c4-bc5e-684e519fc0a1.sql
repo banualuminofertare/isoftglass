@@ -1,0 +1,1 @@
+ALTER TABLE public.order_products ADD COLUMN full_config jsonb DEFAULT NULL;

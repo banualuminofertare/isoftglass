@@ -1,0 +1,1 @@
+ALTER TABLE pricing_config ALTER COLUMN unit SET DEFAULT 'RON';

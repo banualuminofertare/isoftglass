@@ -1,0 +1,1 @@
+ALTER TABLE public.installation_jobs ADD COLUMN client_code text NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE admin_announcements ADD COLUMN is_published boolean NOT NULL DEFAULT true;

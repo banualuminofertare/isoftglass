@@ -1,0 +1,1 @@
+ALTER TABLE public.sliding_mechanisms ADD COLUMN code text NOT NULL DEFAULT '';

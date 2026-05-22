@@ -1,0 +1,1 @@
+ALTER TABLE public.accessory_kits ADD COLUMN processing_types jsonb NOT NULL DEFAULT '{}'::jsonb;
