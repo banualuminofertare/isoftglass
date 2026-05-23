@@ -54,7 +54,6 @@ export default function OperationalDashboard() {
         .from('production_jobs')
         .select('id, job_number, current_stage, started_at, updated_at, client_name, due_date, order_id, orders!inner(company_id)')
         .eq('orders.company_id', companyId!)
-        .not('current_stage', 'eq', 'completed')
         .order('updated_at', { ascending: true });
       if (error) throw error;
       return data || [];
